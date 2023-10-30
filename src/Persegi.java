@@ -23,6 +23,10 @@
         public double hitungLuas() {
             return sisi * sisi;
         }
+            public double hitungKeliling() {
+                return 4 * sisi;
+
+            }
 
         /**
          * Metode utama (main) untuk menguji kelas Persegi.
@@ -36,6 +40,10 @@
             // Menghitung luas dan mencetak hasilnya
             double luas = persegi.hitungLuas();
             System.out.println("Luas persegi dengan sisi 5.0 adalah: " + luas);
+            double keliling = persegi.hitungKeliling();
+            System.out.println("Keliling persegi dengan sisi 5.0 adalah: " + keliling);
+
+
 
         }
     }
